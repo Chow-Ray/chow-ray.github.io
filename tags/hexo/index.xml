@@ -5,14 +5,14 @@
     <link>https://chowray.gitee.io/tags/hexo/</link>
     <description>Recent content in Hexo on Dlog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-Hans</language>
     <lastBuildDate>Fri, 21 Jul 2017 15:39:55 +0000</lastBuildDate><atom:link href="https://chowray.gitee.io/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hexo NexT主题相关设置及优化（不定期更新）</title>
-      <link>https://chowray.gitee.io/posts/_posts/2017-07-21-hexo-next%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3%E8%AE%BE%E7%BD%AE%E5%8F%8A%E4%BC%98%E5%8C%96/</link>
+      <link>https://chowray.gitee.io/posts/2017-07-21-hexo-next%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3%E8%AE%BE%E7%BD%AE%E5%8F%8A%E4%BC%98%E5%8C%96/</link>
       <pubDate>Fri, 21 Jul 2017 15:39:55 +0000</pubDate>
       
-      <guid>https://chowray.gitee.io/posts/_posts/2017-07-21-hexo-next%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3%E8%AE%BE%E7%BD%AE%E5%8F%8A%E4%BC%98%E5%8C%96/</guid>
+      <guid>https://chowray.gitee.io/posts/2017-07-21-hexo-next%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3%E8%AE%BE%E7%BD%AE%E5%8F%8A%E4%BC%98%E5%8C%96/</guid>
       <description>背景图片的设置 打开\themes\next\source\css\_custom中的custom.styl文件,如下填写代码：
 // Custom styles.body {background: url(/images/background.jpg);background-attachment: fixed;}注：去掉background-attachment: fixed;，则背景图随着页面移动而移动；添加则反之。 背景图文件放在\themes\next\source\images文件夹中，名称任意，与上文代码对应即可。也可使用网络图片。
 网站标题栏背景颜色修改 注：仅限Pisces主题。
@@ -24,10 +24,10 @@ Front-matter设置 Front-matter 是 md 文件最上方以---分隔的区域，�
     
     <item>
       <title>Hexo常用命令（不定期更新）</title>
-      <link>https://chowray.gitee.io/posts/_posts/2017-07-05-hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://chowray.gitee.io/posts/2017-07-05-hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Wed, 05 Jul 2017 22:45:33 +0000</pubDate>
       
-      <guid>https://chowray.gitee.io/posts/_posts/2017-07-05-hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://chowray.gitee.io/posts/2017-07-05-hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description>Hexo常用命令 写作命令  新建分页：hexo new page 名称 新建文章：hexo new 名称或hexo n 名称 新建草稿：hexo new draft 名称或hexo n draft 名称 草稿生成文章：hexo publish 名称或hexo p 名称 草稿生成分页：hexo publish page 名称或hexo p page 名称  操作命令  清除已生成文件：hexo clean 运行本地服务器（预览）：hexo s 运行本地服务器（预览草稿）：hexo s --drafts 生成静态文件：hexo g 部署到服务器：hexo d 生成并部署文件：hexo g -d或hexo d -g  常见事项  多标签：
 {% codeblock %} tags:   标签1 标签2 {% endcodeblock %} 或tags: 【标签1,标签2】  设置阅读全文 方法一：在文章中使用&amp;lt;!-- more --&amp;gt;手动进行截断，Hexo 提供的方式（推荐） 方法二：在文章的 front-matter 中添加 description，并提供文章摘录 方法三：自动形成摘要，在 主题配置文件 中修改：  auto_excerpt:enable: truelength: 150默认截取的长度为 150 字符，可以根据需要自行设定</description>
     </item>

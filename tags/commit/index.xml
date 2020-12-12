@@ -5,14 +5,14 @@
     <link>https://chowray.gitee.io/tags/commit/</link>
     <description>Recent content in commit on Dlog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-Hans</language>
     <lastBuildDate>Fri, 04 Aug 2017 11:10:14 +0000</lastBuildDate><atom:link href="https://chowray.gitee.io/tags/commit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在GitHub中使用GPG签名你的commit</title>
-      <link>https://chowray.gitee.io/posts/_posts/2017-08-04-%E5%9C%A8github%E4%B8%AD%E4%BD%BF%E7%94%A8gpg%E7%AD%BE%E5%90%8D%E4%BD%A0%E7%9A%84commit/</link>
+      <link>https://chowray.gitee.io/posts/2017-08-04-%E5%9C%A8github%E4%B8%AD%E4%BD%BF%E7%94%A8gpg%E7%AD%BE%E5%90%8D%E4%BD%A0%E7%9A%84commit/</link>
       <pubDate>Fri, 04 Aug 2017 11:10:14 +0000</pubDate>
       
-      <guid>https://chowray.gitee.io/posts/_posts/2017-08-04-%E5%9C%A8github%E4%B8%AD%E4%BD%BF%E7%94%A8gpg%E7%AD%BE%E5%90%8D%E4%BD%A0%E7%9A%84commit/</guid>
+      <guid>https://chowray.gitee.io/posts/2017-08-04-%E5%9C%A8github%E4%B8%AD%E4%BD%BF%E7%94%A8gpg%E7%AD%BE%E5%90%8D%E4%BD%A0%E7%9A%84commit/</guid>
       <description>前提：   你会安装使用GPG或GPG4win，并已经生成密钥。 你知道如何在GitHub中上传公钥，并已成功上传。 密钥所设邮箱，应与你的GItHub邮箱一致。  配置GPG程序位置  先找到GnuPG的安装目录下gpg2.exe的路径，默认是C:\Program Files (x86)\GNU\GnuPG。 配置gpg.program的位置。 我的是安装在D盘，所以命令如下： git config --global gpg.program &amp;quot;D:\Program Files (x86)\GNU\GnuPG\gpg2.exe&amp;quot;。  配置Git  使用gpg --list-secret-keys --keyid-format LONG命令列出具有公钥和私钥的GPG密钥。或gpg --list-keys查看pub GPG key ID。或者直接在Github设置中→GPG公钥处，直接复制你的Key ID。 设置git签名时用的key：git config --global user.signingkey pub GPG key ID。 开启GPG签名commit：git config commit.gpgsign true；关闭：git config commit.gpgsign false。 如果你想让所有的本地仓库都使用GPG签名：git config --global commit.gpgsign true。  </description>
     </item>
     

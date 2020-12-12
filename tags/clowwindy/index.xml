@@ -5,14 +5,14 @@
     <link>https://chowray.gitee.io/tags/clowwindy/</link>
     <description>Recent content in clowwindy on Dlog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-Hans</language>
     <lastBuildDate>Sat, 05 Aug 2017 00:27:37 +0000</lastBuildDate><atom:link href="https://chowray.gitee.io/tags/clowwindy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>clowwindy语录</title>
-      <link>https://chowray.gitee.io/posts/_posts/2017-08-05-clowwindy%E8%AF%AD%E5%BD%95/</link>
+      <link>https://chowray.gitee.io/posts/2017-08-05-clowwindy%E8%AF%AD%E5%BD%95/</link>
       <pubDate>Sat, 05 Aug 2017 00:27:37 +0000</pubDate>
       
-      <guid>https://chowray.gitee.io/posts/_posts/2017-08-05-clowwindy%E8%AF%AD%E5%BD%95/</guid>
+      <guid>https://chowray.gitee.io/posts/2017-08-05-clowwindy%E8%AF%AD%E5%BD%95/</guid>
       <description>铭记clowwindy的卓越贡献  “那是自然的咯。这边加了什么功能，它马上扒过去合并了。它那边加了什么却不会贡献出来给其他人用，久而久之，不就是它那边功能更多了吗。
 一直以来我什么都没说是因为我对他还有点希望，所以得给他一点面子不是。一开始我还只是纳闷他为什么不发 pull request，过了一段时间我才明白，这个世界上也有这一类的人。不尊重 GPL 就算了，把作者名字换成自己的，还在主页上加上官方的字样。为什么我们这边反而不说官方呢？因为我希望这个项目是没有官方的，人人都是贡献者。想不到这个社会人人都围着官转，人人都巴不得当官 。
 既然他没有尊重别人劳动成果的意愿，那他那些不开源的理由想必也只是借口。说因为加了一些试验性功能会不兼容所以暂不开源。他弄了一个混淆 TCP 协议头功能，在界面上标注提升安全性，吸引用户打开，然后安装他自己的不兼容服务端。然而我分析了一下之后发现这个功能的设计就是想当然，用得多了以后反而会增加特征。如果你真有什么试验性功能，不是更应该开放出来让所有人帮你分析么，大家一起讨论么？在加密算法领域，只有经过足够多人和机构的审视的算法，才能视作是安全的，闭门造出来的怎么能用。。

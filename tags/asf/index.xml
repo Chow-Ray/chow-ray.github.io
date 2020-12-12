@@ -5,14 +5,14 @@
     <link>https://chowray.gitee.io/tags/asf/</link>
     <description>Recent content in ASF on Dlog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-Hans</language>
     <lastBuildDate>Thu, 06 Jul 2017 03:43:58 +0000</lastBuildDate><atom:link href="https://chowray.gitee.io/tags/asf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ASF常用命令（不定期更新）</title>
-      <link>https://chowray.gitee.io/posts/_posts/2017-07-06-asf%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://chowray.gitee.io/posts/2017-07-06-asf%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Thu, 06 Jul 2017 03:43:58 +0000</pubDate>
       
-      <guid>https://chowray.gitee.io/posts/_posts/2017-07-06-asf%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://chowray.gitee.io/posts/2017-07-06-asf%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description>ASF常用命令及配置说明 注：所有命令不区分大小写，但它们的参数（如bot名称）通常区分大小写，命令中符号均为英文符号。 激活Key !redeem简化!R  激活单Key
 !R BOT名 Key或!R Key或直接输入Key 激活多Key 激活当前BotKey1,Key2,Key3或用Ctrl+Enter代替逗号 激活指定Bot!R BOT名 KEY1,KEY2,KEY3，只能用逗号分隔。  激活免费游戏 !addlicense gameIDs或!addlicense BOT1,BOT2 gameIDs gameIDs可以是appIDs或subIDs
 控制Bot发送报价 注：需配置SteamMasterID，若主账号和小号非好友需另设定SteamTradeToken。  当前Bot !loot 当前Bot发送所有补充包和可交易卡牌（包括闪卡）。 指定单个或多个Bot !loot BOT1,BOT2,BOT3 指定Bot发送所有补充包和可交易卡牌（包括闪卡）。  指定游戏挂卡 !play appIDs或!play BOT1,BOT2 appIDs !resume或!resume BOT1,BOT2恢复自动挂卡 appID可在商店查询，即游戏商店地址APP后的数字。
