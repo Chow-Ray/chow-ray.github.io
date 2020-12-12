@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Text</title>
+    <title>测试hugo</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="/assets/css/style.css"/>
 
     
-<meta name="description" content="Text" />
+<meta name="description" content="测试hugo" />
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
@@ -124,12 +124,41 @@ if (!doNotTrack) {
         </div>
 
         <div class="title">
-          <h1>Text</h1>
+          <h1>测试hugo</h1>
         </div>
 
         <div class="post-content" id="post-content">
-          <p>##测试hugo blog</p>
+          <h2 id="测试hugo建立blog使用一键推送">测试hugo建立blog,使用一键推送</h2>
+<h3 id="font-colorred通过配置文件deploysh实现一键部署到githubgiteefont"><FONT COLOR=RED>通过配置文件deploy.sh实现一键部署到GitHub、Gitee</FONT></h3>
+<p>（a）deploy.sh文件放在站点根目录下；<br>
+（b）执行方法分两种（windows下）：</p>
+<p>方法一：站点根目录下，鼠标右键，打开git bash here窗口，执行sh deploy.sh。<br>
+方法二：选中deploy.sh文件，鼠标右键属性，更改打开方式，将打开方式选择为git-bash.exe执行文件，以后写新的文章后，双击下脚本文件即可成功推送到github上。</p>
+<pre><code>#!/bin/bash
 
+echo -e &quot;\033[0;32mDeploying updates to GitHub...\033[0m&quot;
+
+# Build the project.
+hugo # if using a theme, replace by `hugo -t &lt;yourtheme&gt;`
+
+# Go To Public folder
+cd public
+# Add changes to git.
+git add -A
+
+# Commit changes.
+msg=&quot;rebuilding site `date`&quot;
+if [ $# -eq 1 ]
+  then msg=&quot;$1&quot;
+fi
+git commit -m &quot;$msg&quot;
+
+# Push source and build repos.
+git push origin master
+
+# Come Back
+cd .. 
+</code></pre>
         </div>
 
         
@@ -148,7 +177,53 @@ if (!doNotTrack) {
 
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
+    
+      
+        
+        
+        <div class="col-md-12 next-article">
+          <a href="/posts/_posts/2017-08-06-g%E8%83%96%E6%98%AF%E4%B8%AA%E5%AD%A9%E5%AD%90%E6%B0%94%E5%B0%8F%E5%BF%83%E7%9C%BC%E5%84%BF%E7%9A%84%E9%98%B4%E8%B0%8B%E5%AE%B6/" class="btn btn-outline-info">
+            <span>下一个 <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>G胖是个孩子气、小心眼儿的阴谋家</span>
+          </a>
+        </div>
+      
     
   
 
@@ -201,7 +276,15 @@ if (!doNotTrack) {
       <h5 class="text-center pl-3">目录</h5>
       <hr>
       <div class="toc">
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#测试hugo建立blog使用一键推送">测试hugo建立blog,使用一键推送</a>
+      <ul>
+        <li><a href="#font-colorred通过配置文件deploysh实现一键部署到githubgiteefont"><FONT COLOR=RED>通过配置文件deploy.sh实现一键部署到GitHub、Gitee</FONT></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
       </div>
     </div>
     

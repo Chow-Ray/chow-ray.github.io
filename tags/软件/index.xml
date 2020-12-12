@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>软件 on Dlog</title>
+    <link>https://chowray.gitee.io/tags/%E8%BD%AF%E4%BB%B6/</link>
+    <description>Recent content in 软件 on Dlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 11 Jul 2017 14:10:31 +0000</lastBuildDate><atom:link href="https://chowray.gitee.io/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>常用软件推荐（不定期更新）</title>
+      <link>https://chowray.gitee.io/posts/_posts/2017-07-11-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+      <pubDate>Tue, 11 Jul 2017 14:10:31 +0000</pubDate>
+      
+      <guid>https://chowray.gitee.io/posts/_posts/2017-07-11-%E5%B8%B8%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
+      <description>Keepass 密码管理工具，开源程序。 特点：可全局输入（不局限于浏览器），可通过备份数据库实现多平台多设备共享，不受服务器约制，主流平台皆有对应版本。 Windows：keepass Android：Keepass2Android Ios：MiniKeePass 其余平台均可在官网下载页面找到对应版本。
+GPG 加密、签名工具，开源 特点：
+Mozilla Thunderbird+Enigmail Notepad++ Shadowsocks Tor </description>
+    </item>
+    
+  </channel>
+</rss>
