@@ -1,0 +1,6 @@
+background: "images/<your background image name(with file extension)>"
+
+logo:
+  main: /assets/images/main-logo.png
+  inverted: /assets/images/inverted-logo.png
+  favicon: /assets/images/favicon.png
