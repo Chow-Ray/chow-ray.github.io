@@ -1,2 +1,2 @@
-# [博客](http://itook.win)
-[PGP PUBLIC KEY](http://itook.win/PGP.asc)
+# [博客](https://chow-ray.github.io/)
+[PGP PUBLIC KEY](https://chow-ray.github.io/PGP.asc)
