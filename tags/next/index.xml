@@ -1,26 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>NexT on Dlog</title>
-    <link>https://chowray.gitee.io/tags/next/</link>
-    <description>Recent content in NexT on Dlog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
-    <lastBuildDate>Fri, 21 Jul 2017 15:39:55 +0000</lastBuildDate><atom:link href="https://chowray.gitee.io/tags/next/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hexo NexT主题相关设置及优化（不定期更新）</title>
-      <link>https://chowray.gitee.io/posts/2017-07-21-hexo-next%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3%E8%AE%BE%E7%BD%AE%E5%8F%8A%E4%BC%98%E5%8C%96/</link>
-      <pubDate>Fri, 21 Jul 2017 15:39:55 +0000</pubDate>
-      
-      <guid>https://chowray.gitee.io/posts/2017-07-21-hexo-next%E4%B8%BB%E9%A2%98%E7%9B%B8%E5%85%B3%E8%AE%BE%E7%BD%AE%E5%8F%8A%E4%BC%98%E5%8C%96/</guid>
-      <description>背景图片的设置 打开\themes\next\source\css\_custom中的custom.styl文件,如下填写代码：
-// Custom styles.body {background: url(/images/background.jpg);background-attachment: fixed;}注：去掉background-attachment: fixed;，则背景图随着页面移动而移动；添加则反之。 背景图文件放在\themes\next\source\images文件夹中，名称任意，与上文代码对应即可。也可使用网络图片。
-网站标题栏背景颜色修改 注：仅限Pisces主题。
-在\themes\next\source\css\_custom\custom.styl中添加如下代码：
-// Custom styles..site-meta {background: #5591DB; //修改为自己喜欢的颜色或图片。}代码字体颜色设置 未完待续
-Front-matter设置 Front-matter 是 md 文件最上方以---分隔的区域，用于指定个别文件的变量，如下例：
----title: Hello Worlddate: 2017/7/21 20:46:25--- 关闭某个页面/文章的评论，在 md 文件的 front-matter 中增加 comments: false。 关闭某个文章的版权说明，在 md 文件的 front-matter 中增加copyright: false。 未完待续  </description>
-    </item>
-    
-  </channel>
-</rss>

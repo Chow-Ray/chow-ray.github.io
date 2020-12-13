@@ -1,374 +1,1164 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>梦中偶遇</title>
-    <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<!doctype html>
 
 
-<link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="/assets/css/layouts/main.css"/>
-<link rel="stylesheet" href="/assets/css/style.css"/>
-<link rel="stylesheet" href="/assets/css/navigators/navbar.css"/>
+
+  
 
 
-<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #FF4500; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #FF4500, 0 0 5px     #FF4500; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #FF4500;    /*上边框颜色*/
+        border-left-color: #FF4500;    /*左边框颜色*/
+    }
+</style>
 
-<link rel="icon" type="image/png" href="/images/site/1favicon.png" />
-
-
-<link rel="stylesheet" href="/assets/css/style.css"/>
-
-    
-    <link rel="stylesheet" href="/assets/css/layouts/list.css">
-    <link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
-
-
-    
-    
-      
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-XXXXXXXXX-X', 'auto');
-	
-	ga('send', 'pageview');
-}
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 
-    
-  </head>
 
-  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
-    <div class="container-fluid bg-dimmed wrapper">
-      
-      
-    
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
 
 
   
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
 
 
-<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
-  <div class="container">
-      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="/">
-      <img src="/images/site/1main-logo.png">Dlog</a>
-    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
-      <ul class="navbar-nav ml-auto">
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="DLOG" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="东武望余杭，云海天涯两渺茫。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DLOG">
+<meta property="og:url" content="http://itook.win/tags/梦中偶遇/index.html">
+<meta property="og:site_name" content="DLOG">
+<meta property="og:description" content="东武望余杭，云海天涯两渺茫。">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DLOG">
+<meta name="twitter:description" content="东武望余杭，云海天涯两渺茫。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://itook.win/tags/梦中偶遇/"/>
+
+
+
+
+
+  <title>标签: 梦中偶遇 | DLOG</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left  ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">DLOG</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
       
-      </ul>
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-photo">
+          <a href="/photos" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-photo"></i> <br />
+            
+            相册
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
     </div>
   </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
   
-  <img src="/images/site/1main-logo.png" class="d-none" id="main-logo">
-  <img src="/images/site/1inverted-logo.png" class="d-none" id="inverted-logo">
 </nav>
 
 
 
-      
-      
-  
-  
+ </div>
+    </header>
 
-  <section class="sidebar-section" id="sidebar-section">
-    <div class="sidebar-holder">
-      <div class="sidebar" id="sidebar">
-        <input type="text" value="" placeholder="Search" data-search="" id="search-box" />
-        <div class="sidebar-tree">
-          <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/posts" data-filter="all">文章</a></li>
-            <div class="subtree">
-                
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
 
-            </div>
-          </ul>
-        </div>
-      </div>
+  <div id="posts" class="posts-collapse">
+    <div class="collection-title">
+      <h1>梦中偶遇<small>标签</small>
+      </h1>
     </div>
-  </section>
 
-
-      
-      
-<section class="content-section" id="content-section">
-  <div class="content container-fluid" id="content">
-    <div class="container-fluid post-card-holder" id="post-card-holder">
-      
-      
-        <div class="post-card">
-  <a href="/posts/2013-01-18-%E6%97%A0%E9%A2%98/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/assets/images/default-hero.jpg'/>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">无题</h5>
-        <p class="card-text post-summary">笑看浮华戏苍生， 半生浮名半生缘。</p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">January 18, 2013</span>
-        <a
-        href="/posts/2013-01-18-%E6%97%A0%E9%A2%98/"
-        class="float-right btn btn-outline-info btn-sm"
-        >Read</a
-        >
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="post-card">
-  <a href="/posts/2013-01-08-%E4%B8%80%E4%B8%AA%E6%AD%A3%E5%9C%A8%E8%A3%B8%E5%A5%94%E9%9D%A2%E5%AF%B9%E4%B8%96%E7%95%8C%E7%9A%84%E4%BC%9F%E5%A4%A7%E6%AF%8D%E4%BA%B2%E7%9A%84%E5%91%BC%E5%96%8A/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/assets/images/default-hero.jpg'/>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">一个正在裸奔面对世界的伟大母亲的呼喊！</h5>
-        <p class="card-text post-summary">地球是我们赖以生存的家，我们只有一个地球。这是众所周知的事实。而绿色的植被，则是这个家不可或缺的美丽外衣。就像我们身上的衣服一样。如果人不穿衣服走在大街上会怎样？那么我们的地球现在就正是在向这个方向房展。有关部门，你们的责任到哪里去了？你们平时打着官腔的美丽承诺呢？恐怕注定成了空头支票了吧！真正支票也飘向了酒店、夜总会吧！</p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">January 8, 2013</span>
-        <a
-        href="/posts/2013-01-08-%E4%B8%80%E4%B8%AA%E6%AD%A3%E5%9C%A8%E8%A3%B8%E5%A5%94%E9%9D%A2%E5%AF%B9%E4%B8%96%E7%95%8C%E7%9A%84%E4%BC%9F%E5%A4%A7%E6%AF%8D%E4%BA%B2%E7%9A%84%E5%91%BC%E5%96%8A/"
-        class="float-right btn btn-outline-info btn-sm"
-        >Read</a
-        >
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="post-card">
-  <a href="/posts/2012-12-07-%E5%88%87%E7%B3%95%E4%B9%8B%E6%88%91%E8%A7%81/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/assets/images/default-hero.jpg'/>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">切糕之我见</h5>
-        <p class="card-text post-summary">新疆人切糕事件，就让我们简称切糕事件吧。 评鉴一件事，不能来评判它的对与错，任何事的发生都有它的原因，所以，错不在事件本身，在它发生的原因身上。既然错不在本身，又何错之有？ 何种原因会导致这种事件发生？人性的良知么？社会的诚信么？现代人的价值观么？答案都不是唯一的。发生了的，就是历史，没有任何一个人有资格去评判历史。因为历史，就是我们活动的产物，我们对历史的正负面有着不可推卸的责任。且不论事件的对错，单纯我们看待这件事的眼光就正确么?有一个理性的角度么？有人说过人类是永远也无法相互理解的动物。我不知道这句话是否正确，因为我也不知道我是否会理解到他人的艰难，他人的恐惧。人，就是这样。 在当今社会上，公平真的是存在的么？当官的说，据对公平！老百姓却说，公平，是有权、有势人的专有名词，对于我们的字典里不存在。 我们有自由言论的权利，我们有舆论的自由，可自由在哪里？这些言论、舆论，有几个能真正反映到父母官的耳朵里？中国每天都有生活饥寒里的人们，有几个‘父母’理过？有的都是在新闻上大肆渲染好几个月的。我们的人民不需要这样的人！信访办信箱的锁都是锈死的，是我们的社会真的和谐了，还是老百姓麻木了？怕了？政府为了征地修路，有多少人民为了政府造福人类的理由把他们的生活来源献了出去？共产党是有工人做代表，农民做基础组成的一个党派，可是我们每次‘选举’的代表，有几个人是工农阶成的人？有人统计过，每次国家会议，去参加的人大代表中，工农阶级的人仅占百分之一，还成递减趋势。小学生为了当班长，会给老师送5000元礼，我不知道5000元是否多，但这5000元的意义是沉重的。谁把我们的孩子变成了这样。我应该对大家道歉，我们的有些行为已经影响到了下一代人，我们造就了历史，历史却引导了孩子们，孩子们在继续下去。苍天！还给孩子们属于他们的蓝天吧！灰色的天空，让我们自己承担就好！</p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">December 7, 2012</span>
-        <a
-        href="/posts/2012-12-07-%E5%88%87%E7%B3%95%E4%B9%8B%E6%88%91%E8%A7%81/"
-        class="float-right btn btn-outline-info btn-sm"
-        >Read</a
-        >
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-        <div class="post-card">
-  <a href="/posts/2012-02-04-%E5%85%B3%E4%BA%8E%E5%AD%A6%E7%94%9F%E6%98%AF%E5%90%A6%E9%9C%80%E8%A6%81%E5%AD%9D%E6%95%AC%E8%80%81%E5%B8%88%E7%9A%84%E6%9D%82%E8%B0%88/" class="post-card-link">
-    <div class="card">
-      <div class="card-head">
-        <img class="card-img-top" src='/assets/images/default-hero.jpg'/>
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">关于学生是否需要“孝敬”老师的杂谈</h5>
-        <p class="card-text post-summary">叶圣陶先生说过，千学万学学会求知，千教万教教会做人。但是，现在的学生学会了求知么？老师们交会做人了么？每天他们拿着家里的血汗钱，在学校做些什么呢？花钱从来都是大手大脚的，而他们的父母呢？尽可能的节俭。也许看到文章的您会觉得我说的夸张，但是事实却是存在的，发生在我身边。有的老师呢？平时为学生补课的钱比他的正常工资还要高好几倍，平时上课该讲的知识不讲，把重点的东西留到补课上去。这是一个真实的是，沈阳的某位班主任，在高考的前两个月都不在教室看着学生们，却在他的办公室给别的学生补课，每人每小时500元，逼得这个班级的学生无奈之下集体找到了校长。没找老师补课的学生，也理所当然的遭到老师的白眼喽！我想请问有些老师们，你们的事业心还在么？公德心还在么？良知还在么？我的文章并不是针对老师的。错误，不是每个犯错的人造成的，造成错误的根本原因是什么呢？可能是一种社会风气吧！而社会的风气又是我们每个人引导的，拜金主义，媚外主义，不都是我们造成的么？富二代，啃老族，不也都是我们正在做的事么？我只是一个茫茫人海中的一粒沙，一个小小的90后，我只想让世界有一点点小小的转变。</p>
-      </div>
-      <div class="card-footer">
-        <span class="float-left">February 4, 2012</span>
-        <a
-        href="/posts/2012-02-04-%E5%85%B3%E4%BA%8E%E5%AD%A6%E7%94%9F%E6%98%AF%E5%90%A6%E9%9C%80%E8%A6%81%E5%AD%9D%E6%95%AC%E8%80%81%E5%B8%88%E7%9A%84%E6%9D%82%E8%B0%88/"
-        class="float-right btn btn-outline-info btn-sm"
-        >Read</a
-        >
-      </div>
-    </div>
-  </a>
-</div>
-
-      
-    </div>
-    <div class="paginator">
+    
       
 
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
 
-    </div>
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/无题/" itemprop="url">
+              
+                <span itemprop="name">无题</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2013-01-18T19:08:26+08:00"
+              content="2013-01-18" >
+          01-18
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/一个正在裸奔面对世界的伟大母亲的呼喊！/" itemprop="url">
+              
+                <span itemprop="name">一个正在裸奔面对世界的伟大母亲的呼喊！</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2013-01-08T19:22:54+08:00"
+              content="2013-01-08" >
+          01-08
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/切糕之我见/" itemprop="url">
+              
+                <span itemprop="name">切糕之我见</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2012-12-07T01:08:25+08:00"
+              content="2012-12-07" >
+          12-07
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+    
+      
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/关于学生是否需要“孝敬”老师的杂谈/" itemprop="url">
+              
+                <span itemprop="name">关于学生是否需要“孝敬”老师的杂谈</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2012-02-04T01:13:11+08:00"
+              content="2012-02-04" >
+          02-04
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+    
   </div>
-</section>
-
-
-      
-       
-    </div>
-
-    
 
   
 
 
-
-
-  
-
-
-
-
-  
-  
-    
-  
-
-
-<footer class="container-fluid text-center align-content-center footer pb-2">
-  <div class="container pt-5">
-    <div class="row text-left">
-      <div class="col-md-4 col-sm-12">
-        <h5>导航</h5>
-        
-        <ul>
-            
-              
-              
-                
-              
-              <li class="nav-item">
-                <a class="smooth-scroll" href="#about">简介</a>
-              </li>
-            
-            
-              
-              
-                
-              
-              <li class="nav-item">
-                <a class="smooth-scroll" href="#skills">技能</a>
-              </li>
-            
-            
-              
-              
-                
-              
-              <li class="nav-item">
-                <a class="smooth-scroll" href="#experiences">履历</a>
-              </li>
-            
-            
-              
-              
-                
-              
-              <li class="nav-item">
-                <a class="smooth-scroll" href="#projects">项目</a>
-              </li>
-            
-            
-              
-              
-                
-              
-              <li class="nav-item">
-                <a class="smooth-scroll" href="#recent-posts">最近文章</a>
-              </li>
-            
-            
-              
-              
-                
-              
-              <li class="nav-item">
-                <a class="smooth-scroll" href="#achievements">成就</a>
-              </li>
-            
-        </ul>
-        
-
-      </div>
-      
-      <div class="col-md-4 col-sm-12">
-        <h5>联系方式:</h5>
-        <ul>
-          
-          <li><span>电话: </span> <span>&#43;0123456789</span></li>
-          
-          <li><span>邮箱: </span> <span>chow-ray@outlook.com</span></li>
-          
-        </ul>
-      </div>
-      
-      
-      <div class="col-md-4 col-sm-12">
-        
-        <p>Stay up to date with email notification</p>
-        <form>
-          <div class="form-group">
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-            />
-            <small id="emailHelp" class="form-text text-muted"
-              >我们绝不会与任何人共享您的电子邮件。</small
-            >
           </div>
-          <button type="submit" class="btn btn-info">提交</button>
-        </form>
-      </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
       
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar1.gif"
+               alt="Chow Ray" />
+          <p class="site-author-name" itemprop="name">Chow Ray</p>
+           
+              <p class="site-description motion-element" itemprop="description"><FONT COLOR=GREE>东武望余杭，云海天涯两渺茫。</FONT></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives/">
+                <span class="site-state-item-count">17</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">21</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/Chow-Ray" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://steamcommunity.com/profiles/76561198108584836" target="_blank" title="Steam">
+                  
+                    <i class="fa fa-fw fa-steam"></i>
+                  
+                  Steam
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="mailto:Chow-Ray@outlook.com" target="_blank" title="E-mail">
+                  
+                    <i class="fa fa-fw fa-envelope-o"></i>
+                  
+                  E-mail
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="/PGP.asc" target="_blank" title="PGP Key">
+                  
+                    <i class="fa fa-fw fa-key"></i>
+                  
+                  PGP Key
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://www.facebook.com/raychow.v" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-facebook"></i>
+                  
+                  Facebook
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/ChowRay_" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
     </div>
-  </div>
-  <hr />
-  <div class="container">
-    <div class="row text-left">
-      <div class="col-md-4">
-        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
-          <img src="/assets/images/inverted-logo.png">
-          Toha
-        </a>
+  </aside>
+
+
+        
       </div>
-      <div class="col-md-4 text-center">© 2008 - 2020 Copyright.</div>
-      <div class="col-md-4 text-right">
-        <a id="hugo" href="https://gohugo.io/">Powered by
-        <img
-          src="/assets/images/hugo-logo-wide.svg"
-          alt="Hugo Logo"
-          height="18"
-        />
-        </a>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2008 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Chow Ray</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">乳酸菌</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+</div>
+
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共6.2k字</span>
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      
+    </span>
+  
+</div>
+
+
+        
       </div>
-    </div>
-  </div>
-</footer>
-
-    <script src="/assets/js/jquery-3.4.1.min.js"></script>
-<script src="/assets/js/popper.min.js"></script>
-<script src="/assets/js/bootstrap.min.js"></script>
-
-<script src="/assets/js/navbar.js"></script>
-<script src="/assets/js/main.js"></script>
-
+    </footer>
 
     
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
     
-    <script src="/assets/js/list.js"></script>
 
-  </body>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  
+  <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.1"></script>
+
+
+
+  
+    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
 </html>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>

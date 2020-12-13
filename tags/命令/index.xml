@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>命令 on Dlog</title>
-    <link>https://chowray.gitee.io/tags/%E5%91%BD%E4%BB%A4/</link>
-    <description>Recent content in 命令 on Dlog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-Hans</language>
-    <lastBuildDate>Wed, 05 Jul 2017 22:45:33 +0000</lastBuildDate><atom:link href="https://chowray.gitee.io/tags/%E5%91%BD%E4%BB%A4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hexo常用命令（不定期更新）</title>
-      <link>https://chowray.gitee.io/posts/2017-07-05-hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
-      <pubDate>Wed, 05 Jul 2017 22:45:33 +0000</pubDate>
-      
-      <guid>https://chowray.gitee.io/posts/2017-07-05-hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
-      <description>Hexo常用命令 写作命令  新建分页：hexo new page 名称 新建文章：hexo new 名称或hexo n 名称 新建草稿：hexo new draft 名称或hexo n draft 名称 草稿生成文章：hexo publish 名称或hexo p 名称 草稿生成分页：hexo publish page 名称或hexo p page 名称  操作命令  清除已生成文件：hexo clean 运行本地服务器（预览）：hexo s 运行本地服务器（预览草稿）：hexo s --drafts 生成静态文件：hexo g 部署到服务器：hexo d 生成并部署文件：hexo g -d或hexo d -g  常见事项  多标签：
-{% codeblock %} tags:   标签1 标签2 {% endcodeblock %} 或tags: 【标签1,标签2】  设置阅读全文 方法一：在文章中使用&amp;lt;!-- more --&amp;gt;手动进行截断，Hexo 提供的方式（推荐） 方法二：在文章的 front-matter 中添加 description，并提供文章摘录 方法三：自动形成摘要，在 主题配置文件 中修改：  auto_excerpt:enable: truelength: 150默认截取的长度为 150 字符，可以根据需要自行设定</description>
-    </item>
-    
-  </channel>
-</rss>
